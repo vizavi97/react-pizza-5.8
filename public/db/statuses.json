@@ -1,0 +1,17 @@
+[
+    {
+        "name": "new"
+    },
+    {
+        "name": "processed"
+    },
+    {
+        "name": "cancelled"
+    },
+    {
+        "name": "left"
+    },
+    {
+        "name": "done"
+    }
+]

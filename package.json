@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "axios": "*",
+        "bootstrap": "^4.1.0",
+        "browser-sync": "^2.26.13",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "*",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "react": "*",
+        "react-dom": "*",
+        "redux-devtools-extension": "^2.13.8",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0"
+    },
+    "dependencies": {
+        "@chakra-ui/core": "^0.8.0",
+        "@emotion/core": "^10.0.35",
+        "@emotion/styled": "^10.0.27",
+        "emotion-theming": "^10.0.27",
+        "react-redux": "^7.2.1",
+        "react-router-dom": "^5.2.0",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0"
+    }
+}

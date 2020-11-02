@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Peperoni",
+        "desc": "Qui sequi provident reiciendis aut asperiores.",
+        "prices": 7.33,
+        "img": "img/pizzas/Peperoni.jpg"
+    },
+    {
+        "name": "Cheese",
+        "desc": "Illo ad provident a at quia beatae id.",
+        "prices": 7.47,
+        "img": "img/pizzas/Cheese.jpg"
+    },
+    {
+        "name": "Margarita",
+        "desc": "Iste sed molestiae voluptate officiis.",
+        "prices": 3.32,
+        "img": "img/pizzas/Margarita.jpeg"
+    },
+    {
+        "name": "Hawaiian",
+        "desc": "Repudiandae natus inventore voluptatem sed sed animi laudantium.",
+        "prices": 2.51,
+        "img": "img/pizzas/Hawaiian.jpg"
+    },
+    {
+        "name": "Double Peperoni",
+        "desc": "Suscipit aut voluptatem nam non voluptatibus nihil.",
+        "prices": 3.79,
+        "img": "img/pizzas/Double-Peperoni.jpg"
+    },
+    {
+        "name": "Meat Lover's",
+        "desc": "Consectetur consequatur et omnis harum.",
+        "prices": 2.15,
+        "img": "img/pizzas/Meat-Lover's.jpg"
+    },
+    {
+        "name": "Italian",
+        "desc": "Perspiciatis quae voluptatem sit id voluptatibus sunt.",
+        "prices": 4.93,
+        "img": "img/pizzas/Italian.jpg"
+    },
+    {
+        "name": "Four Cheese",
+        "desc": "Tenetur maxime temporibus ipsum laboriosam veniam.",
+        "prices": 6.53,
+        "img": "img/pizzas/Four-Cheese.jpg"
+    },
+    {
+        "name": "Mexican",
+        "desc": "Esse nostrum quia et unde quo pariatur.",
+        "prices": 5.85,
+        "img": "img/pizzas/Mexican.jpg"
+    }
+]
+
+
