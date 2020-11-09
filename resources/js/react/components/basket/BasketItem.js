@@ -2,11 +2,12 @@ import React,{useState} from 'react'
 import {Box, Grid, Flex, Button, Heading, Image, Text, Icon, ListItem,Input} from "@chakra-ui/core";
 import {connect} from "react-redux";
 import {incrementItemInBasket, removeToBasket, decrementItemInBasket} from "../../store/actions/basketActions";
+import {BACKEND_URL} from "../../config/config";
 
 const BasketItem = props => {
     const [count,setCount] = useState(props.count)
     const currency = props.currency.selectedCurrency
-    const src = 'http://127.0.0.1:8000/' + props.src;
+    const src = BACKEND_URL + '/' + props.src;
     function buttonHandler(e) {
         e.preventDefault()
         props.removeToBasket(props.id)

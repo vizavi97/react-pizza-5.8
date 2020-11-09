@@ -1,1 +1,0 @@
-var payload = await json.decode(ascii.decode(base64.decode(base64.normalize(jwtArray[1]))));
